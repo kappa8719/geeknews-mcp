@@ -1,0 +1,7 @@
+name = "geeknews-mcp"
+main = "src/index.ts"
+compatibility_date = "2025-06-18"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# MCP_TOKEN is set as a secret via: wrangler secret put MCP_TOKEN
